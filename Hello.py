@@ -17,3 +17,14 @@ left_ball = "Bulbasaur"
 right_ball = "Charmander"
 
 print ("You can choose " + left_ball + ", " + middle_ball + " or " + right_ball + " as your starter companion!" )
+
+name = input("What is your name? ")
+color = input ("What is your favorite color? ")
+age = input("How old are you today? ")
+
+print ("Hello, " + name + "!" + " I see your favorite color is " + color + " and you are " + age + " years old today.")
+
+print (name)
+print ("is " + str(age) + " years old.")
+print ("and loves the color " + color +".")
+
