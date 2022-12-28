@@ -29,3 +29,4 @@ age = input("How old are you today? ")
 #print ("and loves the color " + color +".", end =" ")
 
 print(name, 'is', age, 'years old and loves the color', color + '.', sep=" ")
+
