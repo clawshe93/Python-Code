@@ -1,4 +1,4 @@
-fahrenheit = int(input("What temperature (in Fahrenheit) would you like converted to celcius?"))
+fahrenheit = float(input("What temperature (in Fahrenheit) would you like converted to celcius?"))
 
 #Python implementation goes here
 
