@@ -58,3 +58,13 @@ print (my_list)
 del my_list[1]
 
 print (my_list)
+
+#Matrices and Cubes
+
+my_matrix = [[1, 2, 3], [4, 5, 6]]
+row_count = len(my_matrix)
+column_count = len(my_matrix[0])
+
+print(my_matrix[0] [1])
+print(my_matrix[1][1])
+print(my_matrix[1][2])
