@@ -42,4 +42,16 @@ print(test_str[2:])
 print(test_str[1:6:2])
 print(test_str[::-1])
 
+#List and other associated things
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8]
+
+print (my_list)
+
+print (my_list[1::2])
+print (my_list[0::2])
+
+my_list[0:2] = ['a', 'b']
+
+print (my_list)
 
