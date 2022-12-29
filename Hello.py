@@ -18,9 +18,9 @@ right_ball = "Charmander"
 
 print ("You can choose " + left_ball + ", " + middle_ball + " or " + right_ball + " as your starter companion!" )
 
-name = input("What is your name? ")
-color = input ("What is your favorite color? ")
-age = input("How old are you today? ")
+#name = input("What is your name? ")
+#color = input ("What is your favorite color? ")
+#age = input("How old are you today? ")
 
 #print ("Hello, " + name + "!" + " I see your favorite color is " + color + " and you are " + age + " years old today.")
 
@@ -28,5 +28,18 @@ age = input("How old are you today? ")
 #print ("is " + str(age) + " years old", end =" ")
 #print ("and loves the color " + color +".", end =" ")
 
-print(name, 'is', age, 'years old and loves the color', color + '.', sep=" ")
+#print(name, 'is', age, 'years old and loves the color', color + '.', sep=" ")
+
+#Indexing simple example
+test_str = 'testing'
+print(test_str[len (test_str) - 1])
+
+
+#Splicing simple example
+print(test_str[0:2])
+print(test_str[3:5])
+print(test_str[2:])
+print(test_str[1:6:2])
+print(test_str[::-1])
+
 
