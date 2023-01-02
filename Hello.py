@@ -65,6 +65,34 @@ my_matrix = [[1, 2, 3], [4, 5, 6]]
 row_count = len(my_matrix)
 column_count = len(my_matrix[0])
 
-print(my_matrix[0] [1])
+print(my_matrix[0][1])
 print(my_matrix[1][1])
 print(my_matrix[1][2])
+
+#Tuples
+
+point = (2.0, 3.0)
+point_3d = point + (4.0,)
+
+print (point)
+
+x, y, z = point_3d
+
+print (x)
+print (y)
+print (z)
+
+print("My name is: %s %s" % ("Keith", "Thmpson"))
+
+person = ('Chris Lawshe', 29, '314-xxx-xxxx')
+person2 = ('Mike Ross', 42, '212-xxx-xxxx')
+print (person2[0])
+
+my_tuple = (my_list, 1)
+print (my_tuple)
+other_list = [1, 2, my_tuple]
+print (other_list)
+
+my_list.append(1)
+print (my_tuple)
+print (other_list)
