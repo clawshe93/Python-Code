@@ -131,3 +131,75 @@ print (ages.items())
 
 #Strings
 
+print (ord('\u2122'))
+print ('\u2122')
+
+print (chr(8482))
+
+print ("This".lower())
+new_str = "tEsTinG"
+
+print (new_str.lower())
+print (new_str.upper())
+print (new_str.capitalize())
+
+print ("This is a multiword string".title())
+
+print ("Chris@example.com" == "chris@example.com")
+print ("Chris@example.com".lower() == "chris@example.com")
+
+print (new_str.isascii())
+print (new_str.islower())
+print (new_str.title().istitle())
+
+print ("123".isdecimal())
+print ("123.0".isdecimal())
+
+print ("123".isdigit())
+print ("123.0".isdigit())
+
+print ("123".isnumeric())
+print ("123.0".isnumeric())
+
+print ("A, B, C are alphabetical characters: ", "abc".isalpha())
+print ("1, 2, 3 are alphabetical characters: ", "123".isalpha())
+
+print ("1, 2, 3 are alpha-numeric characters: ", "123".isalnum())
+print ("1, 2, A, B are alpha-numeric characters: ", "12ab".isalnum())
+
+print ("1bear".isidentifier())
+print ("word".isidentifier())
+
+print("This is printable.".isprintable())
+print("This is printable.\n".isprintable())
+
+phrase = "This is a simple phrase"
+words = phrase.split()
+
+print (words)
+
+url = "https://example.com/users/jimmy"
+user = url.split('/')[-1]
+
+print (user)
+
+print(", ".join(words))
+
+lines = ['First line', 'Second line', 'Third line']
+
+output = '\n'.join(lines)
+print(output)
+
+template = ("Hello, my name is {}, and I really enjoy {}. Have a nice day!")
+
+print (template.format('Chris', 'Python'))
+
+print (template.format('Chris', 'Python', 'Gee-Willakers!'))
+
+template2 = ("Hello, my name is {0}, and I really enjoy {1}. Have a nice day! - {0}".format('Chris', 'Python'))
+
+print (template2)
+
+
+
+
