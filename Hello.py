@@ -96,3 +96,38 @@ print (other_list)
 my_list.append(1)
 print (my_tuple)
 print (other_list)
+
+#Dictionaries
+
+ages = {'Chris': 59, 'Joy': 25, 'Strick': 78}
+print (ages)
+
+ages['Kayla'] = 21
+
+print (ages)
+
+ages ['Chris'] = 85
+
+print (ages)
+
+del ages['Joy']
+
+print (ages)
+
+print ('Joy' in ages)
+print ('Chris' in ages)
+
+weights = dict(kevin = 160, bob = 240, kayla = 125)
+print (weights)
+
+colors = dict([('Kevin', 'Blue'),('Bob', 'Green'),('Kayla', 'Red')])
+print (colors)
+
+print (ages.keys())
+
+print (ages.values())
+
+print (ages.items())
+
+#Strings
+
