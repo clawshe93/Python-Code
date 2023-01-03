@@ -200,6 +200,42 @@ template2 = ("Hello, my name is {0}, and I really enjoy {1}. Have a nice day! - 
 
 print (template2)
 
+#Conditionals
 
+if 'a' < 'b':
+    print ("Condition was true")
+if 'b' < 'a':
+    print ("Condition was true")
+if False:
+    print ("Was true")
+else:
+    print ("Was false")
+if True:
+    print ("Was true")
+else: 
+    print ("Was false")
 
+if 'b' < 'a':
+    print ("This is true")
+elif 'c' < 'd':
+    print("Second condition is true")
+else:
+    print ("No condition was true")
+    
+name = input("What is your name? ")
+
+if len(name) >= 6:
+    print ("Your name is long!")
+elif len(name) == 5:
+    print ("Your name is 5 characters.")
+elif len(name) >= 4:
+    print("Your name is 4 or more characters.")
+else:
+    print("Your name is short.")
+
+name2 = "Keith"
+if name2 == "Kevin":
+    print("Hello Kevin")
+else:
+    pass
 
