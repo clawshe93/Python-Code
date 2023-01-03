@@ -222,20 +222,38 @@ elif 'c' < 'd':
 else:
     print ("No condition was true")
     
-name = input("What is your name? ")
+#name = input("What is your name? ")
 
-if len(name) >= 6:
-    print ("Your name is long!")
-elif len(name) == 5:
-    print ("Your name is 5 characters.")
-elif len(name) >= 4:
-    print("Your name is 4 or more characters.")
+#if len(name) >= 6:
+#    print ("Your name is long!")
+#elif len(name) == 5:
+#    print ("Your name is 5 characters.")
+#elif len(name) >= 4:
+#    print("Your name is 4 or more characters.")
+#else:
+#    print("Your name is short.")
+
+#name2 = "Keith"
+#if name2 == "Kevin":
+#    print("Hello Kevin")
+#else:
+#    pass
+
+value = int(input("Enter an integer value: "))
+
+if value % 5 == 0 and value % 3 == 0 and value % 2 == 0:
+    print("FizzBuzzCuzz")
+elif value % 5 == 0 and value % 3 == 0:
+    print("FizzBuzz")
+elif value % 5 == 0 and value % 2 == 0:
+    print("FizzCuzz")
+elif value % 3 == 0 and value % 2 == 0:
+    print("BuzzCuzz")
+elif value % 5 == 0:
+    print("Fizz")
+elif value % 3 == 0:
+    print("Buzz")
+elif value % 2 == 0:
+    print("Cuzz")
 else:
-    print("Your name is short.")
-
-name2 = "Keith"
-if name2 == "Kevin":
-    print("Hello Kevin")
-else:
-    pass
-
+    print(value)
