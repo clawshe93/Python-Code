@@ -257,3 +257,76 @@ elif value % 2 == 0:
     print("Cuzz")
 else:
     print(value)
+    
+    
+#Loops
+    
+colors = ['red', 'blue', 'orange', 'green', 'yellow']
+for color in colors:
+    print(color)
+
+point = (1, 2, 3)
+for value in point:
+    print(value)
+    
+new_ages = {'kevin': 59, 'bob': 40, 'kayla': 21}
+for key in new_ages:
+    print(key)
+for key, value in new_ages.items():
+    print(key, value)
+    
+counter = 1
+while counter <=25:
+    if counter % 4 == 0:
+        print(counter)
+    counter += 1
+
+count = 1
+while count < 10:
+    if count % 2 == 0:
+        break
+    print(f"We're conting odd numbers: {count}")
+    count += 1
+    
+for color in colors:
+    if color == 'blue':
+        continue
+    if color == 'red':
+        break
+    print(color)
+    
+while count <= 4:
+    print(count)
+    count += 1
+else:
+    print ("While loop completed")
+    
+for i in [1, 2, 3, 4, 5]:
+    print(i)
+else:
+    print("For loop completed")
+
+for color in colors:
+    if color == 'orange':
+        print("Orange is in the list.")
+        break
+else:
+    print("Orange is not in the list.")
+    
+my_range = range(10)
+print (list(range(1, 14, 2)))
+
+while count <= 4:
+    print("Looping")
+    count += 1
+for _ in range(4):
+    print("Looping")
+
+uppercase_colors = [color.upper() for color in colors]
+print(uppercase_colors)
+
+warm_colors = [color for color in colors if color in ['red', 'orange', 'yellow']]
+print(warm_colors)
+
+
+
