@@ -360,8 +360,33 @@ def can_drive(age, driving_age = 16):
     return age >= driving_age
 print (can_drive(15))
 
+#Generators
 
+def gen_range(stop, start=1, step=1):
+    num = start
+    while  num <= stop:
+        yield num
+        num += step
 
+generator = gen_range(10)
 
+print(list(generator))
 
+def gen_fib():
+    a, b = 0, 1
+    while True:
+        a, b = b, a + b
+        yield a
+        
+fib = gen_fib()
 
+print(next(fib))
+print(next(fib))
+print(next(fib))
+print(next(fib))
+print(next(fib))
+print(next(fib))
+print(next(fib))
+print(next(fib))
+
+prit(list(fib))
